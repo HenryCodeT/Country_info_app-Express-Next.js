@@ -20,5 +20,5 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You
 4. Run the server and client simultaneously:
    ```bash
    npm run start
- ## USAGE [LOCAL](http://localhost:3000/)  
+ ## USAGE [http://localhost:3000/](http://localhost:3000/)  
    
