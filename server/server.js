@@ -1,4 +1,3 @@
-console.log("**************** 1-server ********************");
 
 // **** EXPRESS *********************************************
 const express = require("express");
@@ -18,7 +17,6 @@ app.use(express.urlencoded({ extended: true }));
 const allRoutes = require('./routes/routes');
 allRoutes(app);
 
-console.log("---------------- 1-server --------------------");
 const server = app.listen(port, () =>
   console.log(`Fake API (Core) on port ${server.address().port}!`)
 );

@@ -1,12 +1,10 @@
 const axios = require("axios");
 
-console.log("********************** Country Controller **********************");
 
 const getAvailableCountries = async (req, res) => {
   try {
     const response = await axios.get("https://date.nager.at/api/v3/AvailableCountries");
 
-    // Ajustar el formato de respuesta al formato {"countryCode": "AD", "name": "Andorra"}
     const formattedCountries = response.data.map(country => ({
       countryCode: country.countryCode,
       name: country.name
@@ -79,5 +77,3 @@ module.exports = {
   getAvailableCountries,
   getCountryInfo,
 };
-
-console.log("---------------------- Country Controller ----------------------");
