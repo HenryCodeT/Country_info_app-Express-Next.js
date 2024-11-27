@@ -1,0 +1,30 @@
+# Node.js y Next.js - Ignorar dependencias y archivos generados
+
+# Ignorar node_modules en el servidor y cliente
+/node_modules/
+/server/node_modules/
+/client/node_modules/
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de configuración de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar la carpeta de Next.js
+/client/.next/
+
+# Ignorar la carpeta de exportación estática de Next.js (si la usas)
+/client/out/
+
+# Ignorar la carpeta de construcción (si usas algo como Babel/webpack)
+server/build/
+/client/build/
+
+# Ignorar archivos temporales de sistema operativo
+.DS_Store    # macOS
+Thumbs.db    # Windows
