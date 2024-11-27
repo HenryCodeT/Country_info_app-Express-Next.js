@@ -10,4 +10,15 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/HenryCodeT/Country_info_app-Express-Next.js.git](https://github.com/HenryCodeT/Country_info_app-Express-Next.js.git)
+   git clone https://github.com/HenryCodeT/Country_info_app-Express-Next.js.git
+2. Navigate into the project directory:
+   ```bash
+   cd Country_info_app-Express-Next.js
+3. Install the dependencies for both the server and the client:
+   ```bash
+   npm install
+4. Run the server and client simultaneously:
+   ```bash
+   npm run start
+ ## USAGE [LOCAL](http://localhost:3000/)  
+   
